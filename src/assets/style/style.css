@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+input[type="text"] {
+  font-size: 20px;
+  color: white;
+  flex: 1;
+}
+
+body {
+  font-family: Circular;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  background-color: #4db8ff;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
