@@ -1,5 +1,5 @@
 # storyteq-task
-![Text](src/assets/img/StoryTeq Task.png)
+![Text](src/assets/img/StoryteqTask.png)
 ![Text](src/assets/img/storyteq-test.png)
 ## Project setup
 ```
