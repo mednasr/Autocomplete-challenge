@@ -6,14 +6,11 @@ import CitiesAutocomplete from "./components/CitiesAutocomplete.vue";
 <template>
   <main class="containers-wrapper">
     <div class="container">
-      <img src="./assets/img/storyteq-logo%20Books.png" class="container-img" />
+      <img src="./assets/img/storyteq-logoBooks.png" class="container-img" />
       <BooksAutocomplete />
     </div>
     <div class="container">
-      <img
-        src="./assets/img/storyteq-logo%20cities.png"
-        class="container-img"
-      />
+      <img src="./assets/img/storyteq-logocities.png" class="container-img" />
       <CitiesAutocomplete />
     </div>
   </main>
@@ -28,7 +25,6 @@ import CitiesAutocomplete from "./components/CitiesAutocomplete.vue";
   background-repeat: no-repeat;
   background-position: 50%;
   margin-bottom: 50px;
-
 }
 .containers-wrapper {
   position: relative;
@@ -41,28 +37,23 @@ import CitiesAutocomplete from "./components/CitiesAutocomplete.vue";
   font-family: Circular, Arial;
 }
 @media (max-width: 900px) {
-
-  .containers-wrapper  {
+  .containers-wrapper {
     flex-direction: column;
     height: 115vh;
     justify-content: space-between;
     margin-top: 10px;
-
   }
   .searchIcon {
     width: 20px;
     height: 20px;
-}
-  .containers-wrapper .container
-  {
+  }
+  .containers-wrapper .container {
     margin-left: 0px;
     margin-bottom: 20px;
   }
-
-
 }
 .container {
-  background:url(./assets/img/blog-bg.png);
+  background: url(./assets/img/blog-bg.png);
   background-size: 560px 420px;
   flex-direction: column;
   background-color: white;
