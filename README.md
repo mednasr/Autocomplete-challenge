@@ -1,6 +1,6 @@
 # storyteq-task
-- ![Text](src/assets/img/StoryTeq%20App.png)
-- ![Text](src/assets/img/storyteq-example.png)
+![Text](src/assets/img/StoryTeq%20App.png)
+![Text](src/assets/img/storyteq-examples.png)
 ## Project setup
 ```
 npm install
