@@ -8,7 +8,6 @@ npm install
 ### Compile and Hot-Reload for Development
 ```
 npm run dev
-
 ```
 
 ### Run Unit Tests with Vitest
@@ -52,7 +51,3 @@ npm run lint
 - [x] For the cities autocomplete, search through this list for approximate matches. For example, if the user enters san, it should match san, santiago, san francisco, santa rosa, etc. If they enter sant, it should only match santiago and santa rosa.
 - [x] For the books autocomplete, search through the list of book.titles. For example, if the user enters don it should show a suggestion for 'Don Quixote'.
 
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
